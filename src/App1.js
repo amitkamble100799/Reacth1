@@ -1,10 +1,9 @@
-import {Component} from 'react';
+import React from 'react';
 import './App.css';
-
-class ClsCmp extends Component{
+class Akk extends React.Component{
     render(){    
         return(
-            <div className="clscmp">
+            <div className="cls">
             <h1>This is created using class Component</h1>
             <h3>This is done using external CSS</h3>
             <h3 className='blue'>This is done using inline CSS</h3>
@@ -12,4 +11,4 @@ class ClsCmp extends Component{
         )
     }
 }
-export default ClsCmp
+export default Akk
