@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-
-function FunComp(){
+function Ak(){
     return(
         <div className="fnc">
         <h1>This is created using Functional Component</h1>
@@ -10,4 +9,4 @@ function FunComp(){
         </div>
     )
 }
-export default FunComp
+export default Ak
